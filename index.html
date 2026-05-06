@@ -1,3 +1,13 @@
+<!--
+File: index.html
+Author: El Miri martin
+Copyright: 2026, El Miri Martin
+Group: Szoft I/N
+Date: 2026-05-06
+Github: https://github.com/Martin91625
+Licenc: MIT
+-->
+
 <!DOCTYPE html>
 <html lang="hu">
 <head>
@@ -8,10 +18,25 @@
 <body>
 
   <div class="container">
-    <h1>Sip</h1>
-    <p>
-      Sip generated project
-    </p>
+    <button id="aboutButton" class="btn btn-primary mt-3">Névjegy</button>
+    <h1>Zene albumok</h1>
+    <table class="table tale-striped table-light">
+      <thead>
+        <tr>
+          <th>Előadó</th>
+          <th>Cím</th>
+          <th>Év</th>
+          <th>Műfaj</th>
+          <th>Hossz</th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+
+    <span id="minutes"></span>
+  
   </div>
     
     <script type="module" src="src/app.js"></script>
